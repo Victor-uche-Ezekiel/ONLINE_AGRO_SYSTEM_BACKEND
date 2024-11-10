@@ -374,3 +374,11 @@
 - [] git remote -v
 - [] setup env vars in GUI
 - [] git push heroku master/main
+
+- [] dotenv file setup
+
+MONGO_URL={add your mongodb url}
+
+JWT_SECRET={add your jwt secret}
+
+JWT_LIFETIME=1d

@@ -14,7 +14,7 @@ const createProduct = async (req, res) => {
     !company ||
     !description ||
     !category ||
-    !image ||
+    // !image ||
     !colors
   ) {
     return res

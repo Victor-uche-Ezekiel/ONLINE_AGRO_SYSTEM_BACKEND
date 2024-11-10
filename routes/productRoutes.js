@@ -19,8 +19,8 @@ const {
 router
   .route("/")
   .post([authenticateUser, authorizePermissions("admin")], createProduct)
-  .get(getAllProducts)
-  .get(featuredProducts);
+  .get(getAllProducts);
+// .get(featuredProducts);
 
 router.route("/featuredProducts").get(featuredProducts);
 
